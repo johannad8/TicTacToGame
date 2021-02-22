@@ -1,3 +1,10 @@
 .app {
-  height: 100%;
+  &__header {
+    padding: 0 0 2em 0;
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
