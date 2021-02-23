@@ -1,4 +1,3 @@
-import ScoreBoard from './layout/ScoreBoard';
 import GameBoard from './layout/GameBoard';
 import './App.scss';
 
@@ -9,7 +8,6 @@ function App() {
         <h1>TicTacToe</h1>
       </header>
       <section className="app__container">
-        <ScoreBoard />
         <GameBoard />
       </section>
     </div>
