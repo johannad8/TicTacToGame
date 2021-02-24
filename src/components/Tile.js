@@ -5,7 +5,7 @@ function Tile(props){
     <div
       id={props.index}
       onClick={(e) => props.tileClicked(e, props.index)}
-      className="tile"><p>{props.value}</p>
+      className="tile"><h2>{props.value}</h2>
     </div>
   );
 }
