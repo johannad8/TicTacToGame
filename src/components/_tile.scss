@@ -1,15 +1,20 @@
 .tiles-container {
+  background: #FFF;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
   grid-template-rows: 1fr 1fr 1fr;
-  background: #FFF;
+  height: 320px;
+  width: 320px;
 
   .tile {
-    position: relative;
-    text-align: center;
-    padding: 2em;
-    background: linear-gradient(to left, #16222a, #3a6073);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#16222a, #3a6073);
 
+    h2 {
+      color: #f6b93b;
+    }
   }
 }
