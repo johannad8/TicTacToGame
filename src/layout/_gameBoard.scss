@@ -1,1 +1,24 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 320px;
 
+  .btn {
+    background: #f6b93b;
+    border-radius: 15px;
+    color: #494949;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+
+    &:hover {
+      color: #fff;
+      background: #494949;
+      transition: all 0.4s ease 0s;
+    }
+  }
+}
