@@ -17,7 +17,7 @@ function GameBoard() {
 
   // Check the winner
   function checkWinner(player) {
-
+    
     // The winner rows inside the gameboard
     const winnerLines = [
       [1,2,3],
@@ -60,6 +60,7 @@ function GameBoard() {
   // Reset the gameboard and setting the tiles to null
   function resetGame() {
     setTiles(Array(tileCount).fill(null));
+    setClickCount(0);
     setGameInProgress(false);
   }
 
